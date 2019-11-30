@@ -6,18 +6,8 @@ const app = express();
 
 const port = 3000;
 
-
 app.use(cors());
 
-
-// app.get('*', function(req, res) {
-//     res.sendFile(path.resolve(__dirname, '../frontend/dist/index.html'));
-//   });
-
-
-// app.use("/", express.static(__dirname + '/../frontend/dist/'));
-
 app.use(express.static(__dirname + '/../frontend/dist/'));
-
 
 app.listen(port, () => console.log(`listens on port ${port}`));
