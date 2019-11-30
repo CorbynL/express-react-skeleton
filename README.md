@@ -1,3 +1,5 @@
+# AmAzInG
+
 ```diff
-- # AmAzInG
+- AmAzInG
 ```
