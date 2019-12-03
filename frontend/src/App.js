@@ -13,7 +13,7 @@ class App extends Component{
     return(
       <HashRouter>
         <div className="App">
-          <h1> Fk u </h1>
+          <h1> You will now realise your insignifigance as you compare yourself to this title </h1>
           <Switch>
             <Route exact path = '/'  component={Home} />
             <Route exact path = '/Login' component={Login} /> 
