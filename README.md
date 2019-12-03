@@ -5,8 +5,9 @@
 ```
 
 ###Lists are even better
-* Run server/app.js<br/>
-* Look up http://localhost:3000/ in your most favourite and precious browser<br/>
+* npx run build in frontend
+* Run server/app.js
+* Look up http://localhost:3000/ in your most favourite and precious browser
 * Wow
 
 
