@@ -8,6 +8,8 @@ const port = 3000;
 
 app.use(cors());
 
+
+
 app.use(express.static(__dirname + '/../frontend/dist/'));
 
 app.listen(port, () => console.log(`listens on port ${port}`));
