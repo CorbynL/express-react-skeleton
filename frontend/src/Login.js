@@ -6,6 +6,11 @@ const Login = () => {
     return (
         <div className="Login">
             <p>Login</p>
+            <form>
+                <input type="text" placeholder="email"></input>
+                <input type="text" placeholder="password"></input>
+                <button type="submit">Login</button>
+            </form>
             <Link to="/">
                 <button type="button">
                    Home
